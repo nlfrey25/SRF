@@ -8,7 +8,7 @@ Step 2: Update machine_settings.py based on your computer's setting such as the 
 Step 3: Go to directory PECAS/AllYears and make directory "Code" here
         Copy the *.jar files and hdf5 folder from the current PECAS model AllYears/Code folder.
         The current PECAS model can be checked out from the following url:
-        https://svn.hbaspecto.com/svn/pecas/PECASSanDiego/S21u_m
+        https://svn.hbaspecto.com/svn/pecas/PECASSanDiego/S21u_m .
         Also check to make sure aa.properties is in the AllYears/Inputs folder. If not, you will get aa bundle not found error. 
 
 Step 4: Create an empty file Outputsamples_sandag.csv in AllYears\Working\PopulationSynthesis directory.
