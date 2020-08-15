@@ -9,7 +9,6 @@ Step 3: Go to directory PECAS/AllYears and make directory "Code" here
         Copy the *.jar files and hdf5 folder from the current PECAS model AllYears/Code folder.
         The current PECAS model can be checked out from the following url:
         https://svn.hbaspecto.com/svn/pecas/PECASSanDiego/S21u_m
-        
         Also check to make sure aa.properties is in the AllYears/Inputs folder. If not, you will get aa bundle not found error. 
 
 Step 4: Create an empty file Outputsamples_sandag.csv in AllYears\Working\PopulationSynthesis directory.
@@ -28,7 +27,7 @@ Step 7: Run MU Land Demand Model by:
         "C:\Program Files\R\R-4.0.2\bin\R.exe" CMD BATCH .\R\evalDemand.R
         or 
         "C:\Program Files\R\R-4.0.2\bin\Rscript.exe" .\R\evalDemand.
-         Make sure the path to R command or Rscript command is correct.
+        Make sure the path to R command or Rscript command is correct.
    
 
 
